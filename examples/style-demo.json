@@ -54,7 +54,7 @@
         },
         {
           "role": "body",
-          "text": " First supporting point. 简短理解提示。"
+          "text": " First supporting point with a concise explanation."
         }
       ]
     },
@@ -108,7 +108,7 @@
     },
     {
       "role": "body",
-      "text": "中文仅作简短提示，不重复翻译全部英文。"
+      "text": "Use concise annotations only when they improve clarity."
     },
     {
       "role": "topic",

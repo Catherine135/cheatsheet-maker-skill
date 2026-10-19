@@ -1,7 +1,7 @@
-# 公开包的样板与优先级
+# Reference Profile
 
-这套风格来自反复修订的个人Word Cheat Sheet：PPT框架、逻辑编号、三栏窄体、少量中文、黑灰代码和局部红色重点。通用规则见[制作方法](method.md)与[排版规范](formatting.md)，图形见[行内符号](inline-notation.md)。
+This profile specifies compact academic reference sheets with lecture-based organization, logical numbering, condensed typography, semantic code highlighting, and selective red emphasis. The general method is defined in [Content Method](method.md); exact parameters are defined in [Formatting Specification](formatting.md). Diagram requirements are defined in [Diagrams and Inline Symbols](inline-notation.md).
 
-`assets/reference.docx`是从精确排版参数建立的最小模板，含可复用圈号Word域，不含原课程正文、讲义图片、个人属性或字体文件。构建器替换其正文；不能把模板的示范圈号留进新输出。`assets/preview.png`展示仓库中风格示例的顶部三栏；完整可编辑示例在仓库examples目录。
+`assets/reference.docx` is a minimal template constructed from the measured layout specification. It contains reusable circled-numeral Word fields, not course text, lecture images, personal metadata, or font files. The builder replaces its body; demonstration fields must not remain in generated output. `assets/preview.png` shows the top three columns of the repository's illustrative document. The complete editable example is in the repository's `examples` directory.
 
-公开包只保留approved配置，不依赖原作者电脑路径或私人课程样本。新的用户明确要求优先。实际课程知识必须来自使用者提供的材料；本包不内置任何课程考点或考试页数。
+The public package includes only the `approved` profile and has no dependency on private course samples or an original author's computer paths. Current user instructions take precedence. Course knowledge and examination limits must come from the current task rather than from the package.

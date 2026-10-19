@@ -1,108 +1,107 @@
-# Cheat Sheet 制作
+# Cheat Sheet Maker Skill
 
-把课程 PPT 整理成 **逻辑清楚、内容紧凑、可以继续编辑的 Word Cheat Sheet**。
+A Codex skill for producing structured, source-grounded, editable academic reference sheets in Microsoft Word.
 
-这是一个给 Codex 使用的 Skill。可以把它理解成“一份长期有效的制作说明书”：安装后，你提供课程材料、考试范围和页数，它就会按这套方法整理内容和排版。你不需要自己写代码。
+The skill organizes lecture materials into a compact three-column format with consistent hierarchy, precise typography, semantic code highlighting, and carefully preserved diagrams. It is intended for examination reference sheets and concise revision aids.
 
-它采用一种固定的个人风格：**A4 三栏、英文窄体、少量中文提示、黄色章节标题、黑灰分色代码、红色重点词**。重点是保留课件逻辑，让你容易查到知识点，而不是把一堆文字缩小塞进纸里。
+![Three-column reference sheet preview](skills/artifact-template-cheatsheet/assets/preview.png)
 
-![三栏风格示例](skills/artifact-template-cheatsheet/assets/preview.png)
+[Editable Word example](examples/style-demo.docx) · [PDF example](examples/style-demo.pdf)
 
-[查看可编辑的风格示例](examples/style-demo.docx) · [查看完整示例 PDF](examples/style-demo.pdf)
+The examples demonstrate presentation only. They do not contain original course materials or a student's complete reference sheets.
 
-示例只展示排版，不含原作者的课程讲义或原始 Cheat Sheet。
+## Installation
 
-## 怎么开始
-
-### 1. 安装
-
-在有 Skill Installer 的 Codex 中，直接发送：
+In Codex with Skill Installer available, submit:
 
 ```text
-使用 $skill-installer，安装这个 GitHub 仓库中的 Skill：
-https://github.com/Catherine135/cheatsheet-maker
-Skill 路径是 skills/artifact-template-cheatsheet。
+Use $skill-installer to install the skill from:
+https://github.com/Catherine135/cheatsheet-maker-skill
+
+Skill path: skills/artifact-template-cheatsheet
 ```
 
-安装后新开一个对话；如果仍找不到，重启 Codex。Skill 的调用名称是 `$artifact-template-cheatsheet`，界面名称是“Cheat Sheet 制作”。这是 Skill 文件夹，不是双击运行的 Word 插件。安装方式可参考 [OpenAI 的 Skill 说明](https://learn.chatgpt.com/docs/build-skills)。
+Start a new conversation after installation. If the skill is not available, restart Codex. Its display name is **Cheat Sheet Maker**, and its invocation name is `$artifact-template-cheatsheet`.
 
-### 2. 准备材料
+This repository contains a skill directory, not a standalone application or Word add-in. See the [OpenAI skill documentation](https://learn.chatgpt.com/docs/build-skills) for platform guidance.
 
-把课程文件放到 Codex 可以读取的位置，并告诉它：
+## Getting Started
 
-- **做哪门课、哪些章节**，最好提供 Lecture PPT/PDF。
-- 是否使用**老师逐字稿**，以及是否包含 **Tutorial 和答案**。
-- **允许几张纸、每张几面**。例如两张 A4 双面，就是最多四页。
-- Word **保存在哪个文件夹、叫什么名字**。
+Provide the following information:
 
-如果已有自己修改过的 Word，也一起提供，并说明哪些部分已经审查、不想重写。
+1. **Course and scope:** the relevant chapters or examination topics.
+2. **Sources:** lecture slides or exported PDFs, with instructor transcripts if available.
+3. **Additional materials:** whether tutorials, notebooks, and model answers should be included.
+4. **Capacity:** the number of permitted sheets and printable sides. Two double-sided sheets allow four pages.
+5. **Output:** the destination folder and required filename.
 
-### 3. 直接这样说
+For an existing document, identify reviewed sections that must be preserved and specify whether to update the current version or create a new version.
+
+### Example Request
 
 ```text
-使用 $artifact-template-cheatsheet 制作这门课的期中 Cheat Sheet。
+Use $artifact-template-cheatsheet to prepare a midterm reference sheet.
 
-课程：我的课程名
-范围：Chapter 2 和 Chapter 3
-Lecture：我提供的课件文件夹
-逐字稿：我提供的逐字稿文件夹
-Tutorial：这次先不包含
-页数：两张 A4 双面，最多四页
-输出：可编辑 Word，保存到我指定的课程文件夹，命名为 My Course Cheatsheet v1.docx
+Course: [course name]
+Scope: Chapters 2 and 3
+Sources: [lecture folder]
+Instructor transcripts: [transcript folder]
+Tutorials: exclude for this version
+Capacity: two double-sided A4 sheets, maximum four pages
+Output: editable Word document in [destination folder]
+Filename: My Course Cheatsheet v1.docx
 
-严格以 PPT 为框架，尽量覆盖课内要点，不自行补充课外语法。
+Follow the lecture outline, cover substantive course material,
+and do not introduce unsupported terminology or syntax.
 ```
 
-以后改内容，也可以说：
+### Revising an Existing Document
 
 ```text
-使用 $artifact-template-cheatsheet 修改这个 Word。
-从我没审查的部分继续，前面保留。
-沿用现有风格，生成 v2，保留 v1，前缀不变。
+Use $artifact-template-cheatsheet to revise the attached document.
+Continue from the first unreviewed section and preserve earlier content.
+Retain the existing style and filename prefix.
+Create v2 and preserve v1.
 ```
 
-## 它会怎样整理内容
+## Content Principles
 
-**先跟着课件，再理顺逻辑。** 一章只有一个黄色大标题，同一章的知识按实际关系分层；不会为了凑格式重复写一个没有意义的小标题。
+**Lecture-based structure.** The actual course outline determines the chapter framework. Related explanations are consolidated into logical knowledge blocks rather than copied page by page.
 
-**只总结指定材料。** 老师只讲了一种语法，就不会因为其他语法也正确而额外加进去。Tutorial 默认不会自动混入；如果你先让它找新知识点，它会先报告，再按你的选择添加。
+**Controlled scope.** Instructor transcripts supplement corresponding lecture content. Alternative syntax, deductions, and additional methods are not introduced solely because they are technically valid. Tutorials require explicit inclusion.
 
-**代码方便直接套用。** 一种语法优先用一个够用的模板，后面解释关键词；有分类时，一类一类写，解释紧挨着对应代码。
+**Reusable syntax.** Code templates preserve the context needed for direct adaptation. Each category is presented with its own explanation and code, followed by concise keyword explanations where appropriate.
 
-**练习保留老师的思路。** 如果指定加入练习，会先列相关表和列，再列问题。老师给了多种方法，就逐种写简短 Idea 和代码，并突出方法间的关键区别。
+**Instructor-provided methods.** Authorized exercises retain shared schemas, question requirements, and each method actually provided by the instructor. A concise Idea precedes each solution, and distinguishing tokens receive selective emphasis.
 
-**图形保持清楚。** 总览和复杂案例优先使用原课件截图；简小符号可用 Word 原生形状画在文字旁。符号线宽默认 0.40 pt，适度加粗，双线和虚线仍需可辨。
+**Accurate diagrams.** Original overview diagrams and complex source examples are retained. Small native Word symbols may supplement drawing instructions without increasing line height. Default symbol strokes are 0.40 pt, with double lines and dashed outlines kept distinguishable.
 
-## 这套基本风格
+## Reference Style
 
-- **版面**：A4 竖向、三栏、固定 6 pt 行距，少空行。
-- **英文**：Abadi MT Condensed Light，正文 6.5 pt；普通解释不加粗。
-- **中文**：等线 Light，5.5 pt，加粗；只作简短理解提示，不逐句翻译英文。
-- **大标题**：比同语言正文大 1 pt。章节黄底，内部主题青底，真正的小标题深蓝底白字。
-- **圈号 ①②③**：5.5 pt、不加粗，使用 Word 域组件；层级按实际逻辑决定。
-- **正文重点**：红字并加粗，强调条件、性质、方向和易错区别。
-- **代码固定部分**：黑底白字加粗；可替换名称、参数和值：灰底黑字。
-- **多解的核心语法**：少数关键 token 用淡蓝字体，原有黑/灰底保留。
+- **Page layout:** A4 portrait, three columns, fixed 6 pt text line spacing, and minimal blank space.
+- **English body:** Abadi MT Condensed Light, 6.5 pt; ordinary explanations remain regular weight.
+- **Optional Chinese annotations:** DengXian Light, 5.5 pt, bold; used only when required by the user's language preferences. Repository documentation and examples are in English.
+- **Chapter headings:** 1 pt larger than the corresponding language baseline, with yellow highlighting. Internal topics use cyan; genuine subheadings use blue with white text.
+- **Circled numerals:** 5.5 pt, regular weight, implemented as reusable Word fields. Numbering follows logical relationships rather than a fixed meaning for each marker type.
+- **Prose emphasis:** red bold text for decisive properties, conditions, directions, and error-prone distinctions.
+- **Fixed code tokens:** bold white text on black. Replaceable names, parameters, and values use regular black text on light gray.
+- **Method-specific tokens:** selective pale-blue text, retaining the underlying black or gray background.
 
-字体文件不随仓库提供。如果电脑没有这些字体，需要先确认可用字体；替换字体可能影响分页。最终会先做格式检查和逐页排版检查；若当前环境无法渲染，会说明限制。
+Font files are not distributed. Accurate reproduction requires the specified fonts to be available locally; substitutions can change pagination. Formatting checks and inspection of rendered pages are required before delivery. Any unavailable verification capability must be disclosed.
 
-## 常见问题
+## Verification and Limitations
 
-**只有 PDF，没有 PPT 文件，可以吗？** 可以，提供从课件导出的 PDF 就可以。图中的内容需要实际看图。
+The workflow retains a source coverage record and checks substantive content against the supplied materials. Automated checks validate document properties; they do not guarantee completeness or subject-matter accuracy.
 
-**页数少就会自动把字变小吗？** 不会。会先压缩重复例子和铺垫；仍超出时，说明需要取舍的内容。
+Page limits are established for each examination. Repetition is reduced before content is omitted; font size, column count, and line spacing are not silently changed to fit a limit. Word and other rendering engines may paginate differently.
 
-**能用到别的课程吗？** 可以。制作方法和排版可复用，具体目录、知识点和考试页数由新课程材料决定。
+The skill does not include a workflow for publishing course materials. Any external publication requires separate user authorization. Processing of supplied files remains subject to the selected AI platform's settings and policies.
 
-**是不是保证百分之百没有遗漏？** 不作这种保证。它要求保留来源覆盖记录、核对实质要点并检查每页；你也可以让它列出每个章节对应的位置。
+## Repository Contents
 
-**会上传我的课程资料吗？** 这个 Skill 的制作流程不包含上传课程资料。只有你另行明确要求发布时才处理；使用的 AI 平台如何处理输入文件，以该平台设置为准。
+- `skills/artifact-template-cheatsheet/`: installable skill, references, minimal Word template, native symbols, and document utilities.
+- `examples/`: English presentation examples, editable output, and reproduction inputs.
+- [Developer Guide](docs/developer.md): manual construction, validation, and rendering instructions.
+- [Design Rules](docs/rule-updates.md): the reusable conventions maintained by the skill.
 
-## 仓库里有什么
-
-- `skills/artifact-template-cheatsheet/`：可安装 Skill、制作规则、最小 Word 模板和工具。
-- `examples/`：不含课程原文的风格示例及输入文件。
-- [开发者使用说明](docs/developer.md)：手动构建、检查与渲染方法，普通使用者可跳过。
-- [本次规则整理](docs/rule-updates.md)：本次归纳的可复用改进。
-
-本仓库不包含原始课程讲义、原作者的完整 Cheat Sheet、私人电脑路径或字体文件。代码、规则和通用模板按 [MIT License](LICENSE) 提供。
+This repository excludes original lecture materials, private reference documents, personal filesystem paths, and font binaries. Code, instructions, and generic templates are provided under the [MIT License](LICENSE).

@@ -1,26 +1,26 @@
-# 截图与可编辑行内符号
+# Diagrams and Inline Symbols
 
-## 三种用途
+## Three Distinct Uses
 
-- **整体对应**：形状/线型本身是考点时，先放源PPT完整的“符号 ↔ 名称”总览截图，不能只写名称或近似重画。
-- **具体展开**：在rectangle、ellipse、double line等“怎么画”说明旁补Word原生小形状及必要连接；随文字排列，不撑高正文行。
-- **完整案例**：多条连接、方向、角色或标签共同决定含义时，优先用源PPT实际案例截图，让文字逐项对应位置。不能为了可编辑把复杂关系替换为不准确草图。
+- **Overview:** when shapes or line patterns are examinable, retain the source's complete symbol-to-name overview. Names alone or approximate redrawings are insufficient.
+- **Drawing instructions:** supplement specific references to rectangles, ellipses, or double lines with native Word shapes and necessary connectors beside the explanation. Keep the group within the body line.
+- **Complete examples:** when multiple connections, directions, roles, or labels determine meaning, use the original example crop and explain its specific elements. Editability does not justify replacing a complex diagram with an inaccurate sketch.
 
-记法不总是独立图形。例如Role在本课图中是 **write words on the line**：manager、worker写在对应单线或双线上。先说明通用表现形式，再结合源案例解释标签、箭头、基数和参与约束。不要拿无标签回路当Role通用符号，也不要把一个例子的约束推广到全部同类关系。
+Notation is not always an independent shape. Role names may be written directly on the relevant lines. Explain this general representation before discussing the example's labels, arrows, cardinalities, and participation constraints. Do not substitute an unlabeled loop or generalize one example's constraints to every relationship.
 
-裁图保留全部相关实体、属性、连接、箭头、双线、虚线和标签，避免裁掉边或箭头。图片独立wp:inline段落、自动行高、比例缩放，默认宽184pt且不超过栏宽；run和段落标记1pt、缩进与段前后0。截图不受“只能一行高”限制。
+Crops must preserve relevant entities, attributes, connectors, arrowheads, double lines, dashes, and labels. Use proportional inline placement in a separate automatic-height paragraph, normally 184 pt wide and always within the column. Image runs and paragraph marks are 1 pt with zero indentation and paragraph spacing. Full screenshots are not subject to the one-line height limit.
 
-## 行内组件
+## Inline Component Requirements
 
-- 原生形状整体高 **5.2pt / 66040 EMU**，嵌入固定6pt正文行；图形run为1pt。约束整个组合，不只限制矩形而让线段越界。
-- 默认边线 **0.40pt / 5080 EMU**。从0.32pt适度加粗后已验证；保持尺寸不变，重点看双矩形、双菱形、双椭圆、复合连接、虚线和箭头。复杂符号间隙合并时局部调整并重新渲染，不全局套粗线。
-- 只用wp:inline，无浮动锚点和环绕距离，宽度落在栏内。保留准确线型、方向和比例。已有mc:AlternateContent时，同步检查DrawingML原生分支及VML回退线宽。
-- 图像截图与原生形状分别识别，不能把所有w:drawing都当成自动行高图片。
+- Overall native group height: **5.2 pt / 66040 EMU** within a fixed 6 pt line. Shape run: 1 pt. The bound applies to the entire group, including connectors.
+- Default stroke: **0.40 pt / 5080 EMU**, verified as a moderate increase from 0.32 pt. Preserve dimensions and inspect double rectangles, double diamonds, double ellipses, composite connectors, dashes, and arrowheads. If gaps merge, adjust locally and render again rather than increasing all strokes.
+- Use `wp:inline`, no floating anchors or wrapping distances, and a width within the column. Preserve line patterns, directions, and proportions. Where `mc:AlternateContent` exists, check DrawingML strokes and VML fallback strokes together.
+- Distinguish native shapes from `pic:pic` images. Not every `w:drawing` requires automatic paragraph height.
 
-## 复用组件库
+## Reusable Library
 
-`assets/inline-er-glyphs.xml` 含17种原生组件：entity、attribute、relationship、one、many、total、partial、key、weak、identifying、discriminator、isa、isa_total、isa_partial、composite、multivalued、derived。不含截图、课程正文或不准确Role草图。
+`assets/inline-er-glyphs.xml` contains 17 native components: entity, attribute, relationship, one, many, total, partial, key, weak, identifying, discriminator, isa, isa_total, isa_partial, composite, multivalued, and derived. It contains no screenshots, course text, or generic Role sketch.
 
-每个glyph内是可深复制w:r，只有原生DrawingML，没有媒体关系。插入时为wp:docPr/@id、wps:cNvPr/@id及可能的绘图ID分配不冲突的新值。按本课PPT选择记法，不把ER符号推广为其他课程标准。Word另存可能生成VML/内部预览，不把回退预览当新图片重复插入。
+Each `glyph` contains a deep-copyable `w:r` with native DrawingML and no media relationship. Allocate unique `wp:docPr/@id`, `wps:cNvPr/@id`, and other applicable drawing IDs on insertion. Select notation from the actual course source rather than treating this ER library as a universal standard. Word may create VML or internal previews when saving; do not insert fallback previews as duplicate images.
 
-每页渲染后检查图形与周围文字，复杂组件做同尺寸前后对照和放大检查。必要时在Word原生打开，确认仍是形状/组合对象且不撑行、不遮字。
+Inspect surrounding text and symbol clarity on every rendered page. Use enlarged comparisons for complex groups. Where needed, inspect the document in native Word to confirm the components remain editable groups without changing line height or obscuring text.

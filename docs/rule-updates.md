@@ -1,15 +1,20 @@
-# 本次规则整理
+# Design Rules
 
-本次将内容方法、精确排版、语法练习、图形和版本修订分开维护，减少在主说明里重复整门课的案例。
+The skill separates content selection, typography, syntax and exercises, diagram handling, and document revision into focused references.
 
-## 补充的可复用规则
+## Diagram Conventions
 
-1. **记法可能是文字。** 角色名等应写在对应连接线上，不能为每个概念强行造一个小符号。
-2. **复杂例子优先原图。** 图例总览、局部原生小符号、完整案例截图有不同用途；例子中的文字解释要对应截图里的标签、方向和线型。
-3. **小符号适度加粗。** 默认0.40pt线宽，保持5.2pt整体高度和6pt正文行高；不改变尺寸，检查双线、虚线、箭头和复合连接。
-4. **局部修订保留用户最新编辑。** 从最新已保存文件开始，写回前核对是否变化；保留版本前缀与范围外内容，区分生成、写回和实际检查。
-5. **新增点就近嵌入。** 获准的Tutorial新点放回相应理论位置；不把某课程题目、补充知识或页数推广为通用要求。
+1. **Text may be notation.** Role names belong on the relevant connection lines; not every concept requires an independent symbol.
+2. **Complex examples retain source diagrams.** An overview, an inline native symbol, and a complete source crop serve different purposes. Explanations must correspond to the example's labels, directions, and line patterns.
+3. **Small symbols use moderate strokes.** Default stroke width is 0.40 pt within an overall height of 5.2 pt and a 6 pt body line. Preserve dimensions and inspect double outlines, dashes, arrowheads, and composite connections.
 
-## 继续保留的核心方法
+## Revision Conventions
 
-PPT Outline为框架、逐字稿补充；不自加同义语法；一个chapter一个黄色标题；实际逻辑决定编号；分类各自带解释和代码；复杂语法带编号Syntax，简单模板不加空层；英文轻、中文短且加粗；圈号使用5.5pt非粗体Word域；固定代码黑底、可替换内容灰底；方法核心淡蓝字体；正文关键判断红色加粗；老师多解配Idea和代码；Exercise自然流排；交付前来源核对和全页渲染。
+4. **Preserve recent user edits.** Begin with the latest saved document, recheck it before replacement, retain filename prefixes, and leave unrelated content unchanged. Distinguish generation, saving, and actual inspection.
+5. **Place approved additions beside related theory.** Tutorial additions require a source comparison and user selection. Specific examination limits, questions, and chapter numbers are not generalized to other courses.
+
+## Core Presentation Principles
+
+Use the lecture outline as the framework, supported by instructor transcripts. Do not add unsupported synonymous syntax. Keep one yellow heading per chapter and select numbering from actual logical relationships. Present each category with its own explanation and code. Use a numbered Syntax item for complex concepts without adding redundant layers to simple templates.
+
+Keep ordinary English regular, optional language annotations concise, and circled numerals as 5.5 pt non-bold Word fields. Use black backgrounds for fixed syntax, gray for replaceable content, pale-blue text for distinguishing method tokens, and red bold prose for decisive conditions. Preserve instructor-provided solutions with concise Ideas and code. Allow exercises to follow theory naturally. Require source checks and inspection of every rendered page before delivery.

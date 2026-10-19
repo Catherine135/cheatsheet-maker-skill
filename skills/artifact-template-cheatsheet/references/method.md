@@ -1,39 +1,39 @@
-# 如何从课件制作 Cheat Sheet
+# Content Method
 
-## 来源与覆盖
+## Source Scope and Coverage
 
-先确认范围，建立材料清单和章节Outline。逐知识块记录来源页码/逐字稿位置、目标标题、保留/合并/省略及理由；图中的关系要看原页，不能只搜索文本。记录留在任务工作区，用于回答“是否覆盖”“新增在哪里”。
+Confirm the scope and establish the source inventory and chapter outline. Record the source page or transcript location, destination heading, and retention, consolidation, or omission decision for each knowledge block. Inspect visual relationships on the original page rather than relying exclusively on text search. Keep the record in the task workspace so coverage and insertion locations can be reported accurately.
 
-PPT是主要框架；老师逐字稿补解释、强调和有据的勘误。多份Part可合成一章，重复过渡页可省略。用知识关系压缩，不机械逐页抄，也不重建一套百科目录。只有用户允许时才纳入Tutorial、Notebook或教师答案。
+Lecture slides supply the primary structure. Instructor transcripts supply corresponding explanations, emphasis, and documented corrections. Consolidate multipart lectures and repeated transition slides by their underlying concepts. Avoid both mechanical page-by-page copying and an unrelated encyclopedic outline. Use tutorials, notebooks, or model answers only when authorized.
 
-通用知识只用于检查概念、公式和模板是否有效，不能变成新增考点。讲义没有的同义语法、替代解、边界和推论不为了“完整”而加入。有冲突时回看材料，区分有据的勘误和agent判断。
+General subject knowledge supports validation, not expansion of examination scope. Do not add synonymous syntax, alternative methods, deductions, or edge cases absent from the supplied materials. Resolve conflicts against the sources and distinguish documented corrections from the agent's interpretation.
 
-## 内容怎样缩短
+## Compression Principles
 
-保留能决定答案的条件、方向、单位、分支、比较、限制、语法及必要输出，删重复铺垫和重复案例。不是只留孤立名词或公式，也不是每点限定相同行数。
+Retain decisive conditions, directions, units, branches, comparisons, constraints, syntax, and necessary outputs. Remove repeated explanations and interchangeable examples. Avoid reducing the document to disconnected labels or imposing an identical length on every topic.
 
-- 概念：课内定义 → 特征/机制 → 真正有用的区别与条件。
-- 分类：各类别紧跟各自解释和语法，不把解释放到代码集合之后。
-- 计算：符号和条件 → 公式 → 套用步骤 → 易错差别；缩短可恢复的推导，保留难恢复的限制。
-- 程序/命令：可直接改用的最小模板 → 关键词解释；同类语法用一个综合例子，避免复制完整业务系统。
-- 历史或应用：若课程实质涉及就保留，可用紧凑时间线/并列，不因“像背景”一律删除。
+- Concepts: definition, relevant mechanism or properties, and meaningful distinctions.
+- Categories: explanation and syntax together for each category.
+- Calculations: notation and conditions, formula, application steps, and consequential distinctions.
+- Commands and procedures: a minimal reusable template followed by keyword explanations; avoid reproducing an entire application to demonstrate one construct.
+- Historical or applied material: retain substantive course content, using compact timelines or parallel points where appropriate.
 
-英文保留术语和检索词，中文搭最短理解桥梁。短中文可解释“为什么”“何时”“哪些不需要”；不逐句翻译，不给每个标题重复中文。
+Preserve English retrieval terms. When the user's language preferences call for Chinese, add concise clarifications rather than translating each heading or sentence. The style supports brief annotations without making bilingual repetition mandatory.
 
-## 从逻辑生成编号
+## Hierarchy
 
-先判断父子和并列关系，再用当前位置实际轮到的编号。同级一致，不规定“数字只能代表小标题”“圈号只能代表步骤”。没有并列子主题时直接展开，不重复父主题制造空壳层。
+Determine parent, child, and parallel relationships before selecting markers. Use consistent levels without permanently associating a marker type with a content category. A topic without parallel subtopics should expand directly rather than repeat its own heading.
 
-每个实际chapter一个黄色标题；青色/深蓝只用于真实主题。代码及其后解释属于同一个知识点，不给代码每行重新编号。小型类别如三种JOIN必须分别就近解释。
+Use one yellow heading per chapter. Cyan and blue identify actual topics and subheadings. A code block and its explanation form one knowledge unit; do not number individual code lines. Complete each small category, such as a join type, before moving to the next.
 
-## 例子、练习和增补
+## Examples, Exercises, and Additions
 
-理论例子展示语法如何使用，不在开头铺整套schema和数据行。指定练习集中：共享schema只列一次，每题题意/输出列 → Method n → 简短Idea → 完整代码。保留老师实际多解及其区别，课堂错误示例标WRONG，不自创替代解。
+Theory examples demonstrate how syntax is applied; they should not introduce extensive schemas or sample data unnecessarily. For authorized exercises, list the shared schema once, then present each question and output requirement, followed by Method n, a concise Idea, and the corresponding code. Preserve the instructor's actual methods and distinctions. Mark instructor-identified incorrect examples as WRONG and do not invent alternatives.
 
-比较Tutorial与Lecture新增点时，先报告内容、页码、可插入位置。获准后，将独立新点放回邻近理论条目，综合题继续放Exercise。按实际层级追加编号；指定需要重复的速查入口时照办。回答“这里有没有”时，分清指定理论位置已有还是仅练习里出现过。
+When comparing tutorials with lectures, report additions, source pages, and proposed locations first. Once approved, insert independent points beside their corresponding theory while keeping integrated questions in the exercise section. Extend numbering at the actual level. Preserve explicitly requested duplicate lookup entries. Distinguish material already present in the requested theory section from material appearing only in an exercise.
 
-## 图形要表达什么
+## Visual Meaning
 
-先判断记法是形状、连接、线型、箭头还是文字标签。总体图例用源PPT截图；“怎么画”配行内小图形；复杂关系例子保留原图并让解释对应部位。Role是在线上写角色名，不能用无文字回路替代。
+Determine whether notation is conveyed by a shape, connection, line pattern, arrow, or text label. Preserve the original overview, supplement drawing instructions with inline symbols, and use source crops for complex examples. For role notation, words on the relevant lines carry meaning; an unlabeled loop is not an equivalent replacement.
 
-不均匀分配篇幅。内容完整且未超上限时保留，不为更短过度压缩；上限不必填满。具体课程限制、章节号和某一题的知识点不推广为其他课程要求。
+Allocate space according to substantive need. Preserve a complete version within its limit rather than compressing solely to minimize pages. Specific examination limits, chapter numbers, and exercise details do not become defaults for other courses.

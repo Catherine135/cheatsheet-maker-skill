@@ -1,7 +1,7 @@
 interface:
-  display_name: "Cheat Sheet 制作"
-  short_description: "以课程 PPT 为框架，按个人风格制作三栏 Word Cheat Sheet"
+  display_name: "Cheat Sheet Maker"
+  short_description: "Create structured, source-grounded Word cheat sheets"
   icon_large: "./assets/preview.png"
-  default_prompt: "使用 $artifact-template-cheatsheet，依据指定课程 PPT 和老师逐字稿，按本次考试范围与页数要求制作可编辑 Word Cheat Sheet。"
+  default_prompt: "Use $artifact-template-cheatsheet to create an editable Word cheat sheet from the supplied lecture materials, following the specified scope and page limit."
 policy:
   allow_implicit_invocation: true

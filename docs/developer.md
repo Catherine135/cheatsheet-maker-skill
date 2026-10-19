@@ -1,16 +1,16 @@
-# 手动构建与验证
+# Developer Guide
 
-普通使用者直接让 Codex 使用 Skill 即可。以下供维护工具或排查排版时使用。
+Most users can invoke the skill directly in Codex. This guide describes manual construction and verification for maintenance and troubleshooting.
 
-## 依赖
+## Requirements
 
-Python 3.10+；Python包见根目录`requirements.txt`。生成Word需要python-docx和lxml，PDF页数检查需要pypdf。字体需要本机合法安装的Abadi MT Condensed Light和等线Light，本仓库不分发字体。
+Use Python 3.10 or later and the packages listed in the repository's `requirements.txt`. Word construction requires `python-docx` and `lxml`; PDF page-count checks require `pypdf`. Accurate rendering also requires locally licensed Abadi MT Condensed Light and DengXian Light fonts. Font binaries are not distributed.
 
-Codex桌面环境优先使用其workspace dependency loader给出的Python和Documents渲染工具；其他环境可自行准备Python依赖与Word/LibreOffice渲染器。构建器本身不会调用AI或网络接口，也不会从PPT自动推断内容。
+In supported Codex desktop environments, use the workspace dependency loader's Python interpreter and Documents renderer. Other environments may supply equivalent Python dependencies and a Word-compatible rendering workflow. The builder itself does not call an AI service, access network APIs, or infer content from lecture files.
 
-## 构建
+## Construction
 
-在仓库根目录执行，`PYTHON_BIN`替换为选定的Python解释器路径：
+Run the following from the repository root, setting `PYTHON_BIN` to the selected interpreter:
 
 ```bash
 "$PYTHON_BIN" skills/artifact-template-cheatsheet/scripts/build_cheatsheet.py \
@@ -19,13 +19,19 @@ Codex桌面环境优先使用其workspace dependency loader给出的Python和Doc
   work/demo.docx --expected-chapters 3
 ```
 
-`{{...}}`是可替换语法，输出为灰底；固定部分黑底。需要少数淡蓝核心token时使用显式code_core/identifier_core runs。JSON字段和角色见[排版规范](../skills/artifact-template-cheatsheet/references/formatting.md)。
+Within `code_template`, `{{...}}` marks replaceable gray content; other tokens receive the fixed black code style. Use explicit `code_core` or `identifier_core` runs for selective pale-blue emphasis. The JSON interface is documented in the [Formatting Specification](../skills/artifact-template-cheatsheet/references/formatting.md).
 
-仓库中的可编辑示例还插入了原生小符号，插入步骤由`examples/build_demo.py`提供；直接运行此脚本可重建含全部17类符号的示例。它将输出写到`work/`，不会修改保留模板。
+The complete example includes 17 native Word symbol types. Rebuild it with:
 
-## 渲染
+```bash
+"$PYTHON_BIN" examples/build_demo.py
+```
 
-已具备Documents工具时，把DOCUMENTS_SKILL_DIR设为其实际目录：
+This script writes to `work/` by default and leaves the retained template unchanged. The basic JSON builder produces the text layout; `build_demo.py` additionally replaces the example's symbol markers with editable DrawingML groups.
+
+## Rendering
+
+When Documents tools are available, set `DOCUMENTS_SKILL_DIR` to their actual location:
 
 ```bash
 "$PYTHON_BIN" skills/artifact-template-cheatsheet/scripts/render_with_fonts.py \
@@ -35,11 +41,12 @@ Codex桌面环境优先使用其workspace dependency loader给出的Python和Doc
   --rendered-pdf work/render/demo.pdf --page-limit 1
 ```
 
-没有Documents工具时，可用Word导出PDF，再将每页转为图片检查。render_with_fonts.py是Documents的包装器，不是独立渲染器；它在支持的Mac环境把本机Word字体加入临时fontconfig，未复制或安装字体。若缺少字体，不能把替代字体结果声称为精确复现。
+Without Documents tools, export through Word or another supported renderer, then inspect an image of every page. `render_with_fonts.py` wraps the Documents renderer; it is not a standalone rendering engine. On supported macOS installations, it references existing Word fonts through temporary fontconfig without installing or redistributing them.
 
-## 验证边界
+## Verification Boundaries
 
-- Audit检查页面参数、字号、圈号域、代码颜色和图片布局，不判断课程内容是否完整或正确。
-- 页数必须来自实际渲染的PDF，不能从DOCX XML推断。
-- 逐页打开图片，检查字体、圈号、代码黑灰边界、裁图、箭头和双线间隙；Word与LibreOffice可能分页不同。
-- 学生的材料、答案、生成文件、字体和渲染缓存不进入本仓库。更新公开包采用文件白名单，不复制私人skill整个assets目录。
+- The audit checks page geometry, type sizes, circled-numeral fields, highlighting, and image placement. It does not validate course coverage or subject accuracy.
+- Page counts must come from rendered PDFs rather than DOCX XML.
+- Inspect every page for glyph substitutions, code-token boundaries, clipping, arrowheads, and distinguishable double-line gaps. Word and LibreOffice may paginate differently.
+- Do not claim exact visual reproduction when required fonts or verification tools are unavailable.
+- Keep course sources, answers, generated student documents, fonts, and rendering caches outside the public package. Use an explicit publication file list rather than copying an entire private skill directory.

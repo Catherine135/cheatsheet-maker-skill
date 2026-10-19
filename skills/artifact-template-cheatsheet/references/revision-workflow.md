@@ -1,15 +1,15 @@
-# 修改用户正在使用的版本
+# Revision Workflow
 
-1. 读取当前文件，确认前缀、路径、版本和修改区段。用户亲自完成、审查过的部分是局部样板；只改获准范围。方括号等标记只有用户明确说明是修改指令时才执行，不把普通讲义文本当指令。
-2. 在任务工作区保留修改前副本及文件哈希，从最新已保存版本开始。先做临时成品、来源核对、audit和全页视觉检查，再写回目标文件。
-3. 写回前核对目标是否变化。若变化，重新读取并在新版本合并，不能覆盖用户刚做的修改。工具明确报告用户正在编辑时，先完成独立准备，再仅为必要保存/关闭协调询问；已确认保存和继续后不重复问。
-4. 局部修订不为清零旧检查错误而改动范围外标题、空行等用户格式。确认没有新增缺陷，并保留当前可编辑组件、图片关系、字体与其余内容。
-5. “生成V7”保留V6并沿用完整前缀；“更新V8”备份后写回同一V8，不擅自生成V9。写回成功才能说“已写回”，要求即时通知时及时告知。若已关闭旧视图，完成后重新打开目标并检查。
+1. Read the current document and confirm its location, filename prefix, version, and requested edit range. Treat user-authored and reviewed content as a local model and preserve material outside scope. Interpret bracketed annotations as edit instructions only when the user has explicitly identified them as such.
+2. Retain a backup and file hash in the task workspace. Work from the latest saved document. Prepare a candidate, verify sources, run the audit, and inspect all rendered pages before replacing the target.
+3. Recheck the target before writing. If it changed, merge the revision into the new saved version rather than overwriting recent user edits. When a tool explicitly reports concurrent editing, complete independent preparation and coordinate only the necessary save or close step. Do not request permission again after the user has authorized continuation.
+4. Do not alter unrelated headings or blank paragraphs merely to eliminate pre-existing audit findings. Confirm that the edit introduces no new defects and preserves editable components, media relationships, fonts, and unaffected content.
+5. A request for a new version preserves the previous file and its filename prefix. A request to update the current version requires a backup and replacement of that same version. Report a successful write only after it occurs. If an old application view was closed, reopen the saved target and inspect it.
 
-## 图形的小范围调整
+## Native Symbol Adjustments
 
-只改指定Word原生符号，不能批量改变PPT截图或其他装饰。线宽调整同步处理组合内各线段与已有VML回退；保持位置、尺寸、比例、整体高度、正文行高与文字不变。默认0.40pt，复杂符号若间隙接近消失，应先看放大校样再局部调整，不能一味加粗。
+Modify only the requested native Word symbols, not source screenshots or unrelated elements. Update all applicable component strokes and existing VML fallbacks. Preserve positions, dimensions, proportions, overall height, line spacing, and text. The default is 0.40 pt. Inspect enlarged proofs before increasing complex strokes further; narrow double-line gaps must remain distinguishable.
 
-## 交付说明
+## Completion Report
 
-说明修改位置、主要内容和实际页数，提供要求的成品。不要把“已生成”“已写回”“Word中已检查”“已打印”混为一谈；没有逐点覆盖记录不能说“全部知识已包含”。
+State the affected locations, material changes, and actual page count. Distinguish generation, saved replacement, native Word verification, and physical printing. Do not claim exhaustive coverage without a source coverage record.
