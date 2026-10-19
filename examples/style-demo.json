@@ -1,0 +1,353 @@
+{
+  "title": "Cheat Sheet Style Demo",
+  "paragraphs": [
+    {
+      "role": "major",
+      "text": "Chapter 1 Structure",
+      "chapter_id": "style"
+    },
+    {
+      "role": "topic",
+      "text": "I. Lecture framework"
+    },
+    {
+      "role": "concept",
+      "text": "1. Start from the Outline"
+    },
+    {
+      "runs": [
+        {
+          "role": "body",
+          "text": "(1) Use lecture topics as the main structure; "
+        },
+        {
+          "role": "rule",
+          "text": "keep the source scope"
+        },
+        {
+          "role": "body",
+          "text": "."
+        }
+      ]
+    },
+    {
+      "runs": [
+        {
+          "role": "body",
+          "text": "(2) "
+        },
+        {
+          "role": "term",
+          "text": "Definition:"
+        },
+        {
+          "role": "body",
+          "text": " short explanation with the essential condition."
+        }
+      ]
+    },
+    {
+      "runs": [
+        {
+          "role": "circle",
+          "text": "①"
+        },
+        {
+          "role": "body",
+          "text": " First supporting point. 简短理解提示。"
+        }
+      ]
+    },
+    {
+      "runs": [
+        {
+          "role": "circle",
+          "text": "②"
+        },
+        {
+          "role": "body",
+          "text": " Second point at the same logical level."
+        }
+      ]
+    },
+    {
+      "runs": [
+        {
+          "role": "circle",
+          "text": "③"
+        },
+        {
+          "role": "body",
+          "text": " Keep labels and conditions easy to find."
+        }
+      ]
+    },
+    {
+      "role": "concept",
+      "text": "2. Emphasis"
+    },
+    {
+      "runs": [
+        {
+          "role": "term",
+          "text": "Term:"
+        },
+        {
+          "role": "body",
+          "text": " regular English explanation; "
+        },
+        {
+          "role": "rule",
+          "text": "deciding condition"
+        },
+        {
+          "role": "body",
+          "text": " in red bold."
+        }
+      ]
+    },
+    {
+      "role": "body",
+      "text": "中文仅作简短提示，不重复翻译全部英文。"
+    },
+    {
+      "role": "topic",
+      "text": "II. One topic, direct points"
+    },
+    {
+      "role": "body",
+      "text": "1. No repeated title when there is only one topic."
+    },
+    {
+      "role": "body",
+      "text": "2. Numbering follows the actual relationships."
+    },
+    {
+      "role": "body",
+      "text": "3. Same-level points use the same level."
+    },
+    {
+      "role": "major",
+      "text": "Chapter 2 Code",
+      "chapter_id": "code",
+      "column_break_before": true
+    },
+    {
+      "role": "topic",
+      "text": "I. Syntax and explanation"
+    },
+    {
+      "role": "concept",
+      "text": "1. Editable templates"
+    },
+    {
+      "runs": [
+        {
+          "role": "body",
+          "text": "(1) "
+        },
+        {
+          "role": "term",
+          "text": "Example:"
+        },
+        {
+          "role": "body",
+          "text": " fixed syntax and replaceable names."
+        }
+      ]
+    },
+    {
+      "runs": [
+        {
+          "role": "circle",
+          "text": "①"
+        },
+        {
+          "role": "body",
+          "text": " Syntax:"
+        }
+      ],
+      "keep_next": true
+    },
+    {
+      "code_template": "SELECT {{column_name}}\nFROM {{table_name}}\nWHERE {{condition}};"
+    },
+    {
+      "runs": [
+        {
+          "role": "circle",
+          "text": "②"
+        },
+        {
+          "role": "body",
+          "text": " Black: fixed syntax. Gray: names, parameters and values."
+        }
+      ]
+    },
+    {
+      "role": "concept",
+      "text": "2. A method core"
+    },
+    {
+      "runs": [
+        {
+          "role": "term",
+          "text": "Method 1 — core token: "
+        },
+        {
+          "role": "body",
+          "text": "brief idea, then code."
+        }
+      ]
+    },
+    {
+      "runs": [
+        {
+          "role": "code",
+          "text": "SELECT "
+        },
+        {
+          "role": "code_core",
+          "text": "MAX"
+        },
+        {
+          "role": "code",
+          "text": "("
+        },
+        {
+          "role": "identifier",
+          "text": "value"
+        },
+        {
+          "role": "code",
+          "text": ") FROM "
+        },
+        {
+          "role": "identifier",
+          "text": "table_name"
+        },
+        {
+          "role": "code",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "role": "body",
+      "text": "Only the distinguishing token uses pale-blue text."
+    },
+    {
+      "role": "topic",
+      "text": "II. A short template"
+    },
+    {
+      "runs": [
+        {
+          "role": "body",
+          "text": "(1) "
+        },
+        {
+          "role": "term",
+          "text": "Renaming:"
+        },
+        {
+          "role": "body",
+          "text": " a simple definition can lead directly to code."
+        }
+      ]
+    },
+    {
+      "code_template": "SELECT {{column_name}} AS {{output_name}}\nFROM {{table_name}};"
+    },
+    {
+      "role": "major",
+      "text": "Chapter 3 Small Symbols",
+      "chapter_id": "diagram",
+      "column_break_before": true
+    },
+    {
+      "role": "topic",
+      "text": "I. Inline native Word shapes"
+    },
+    {
+      "role": "body",
+      "text": "Height: 5.2 pt; stroke: 0.40 pt; editable groups."
+    },
+    {
+      "role": "body",
+      "text": "Entity: [[glyph:entity]]"
+    },
+    {
+      "role": "body",
+      "text": "Attribute connection: [[glyph:attribute]]"
+    },
+    {
+      "role": "body",
+      "text": "Relationship connection: [[glyph:relationship]]"
+    },
+    {
+      "role": "body",
+      "text": "One / arrow: [[glyph:one]]"
+    },
+    {
+      "role": "body",
+      "text": "Many / line: [[glyph:many]]"
+    },
+    {
+      "role": "body",
+      "text": "Total / double line: [[glyph:total]]"
+    },
+    {
+      "role": "body",
+      "text": "Partial / single line: [[glyph:partial]]"
+    },
+    {
+      "role": "body",
+      "text": "Key underline: [[glyph:key]]"
+    },
+    {
+      "role": "body",
+      "text": "Weak entity: [[glyph:weak]]"
+    },
+    {
+      "role": "body",
+      "text": "Identifying relationship: [[glyph:identifying]]"
+    },
+    {
+      "role": "body",
+      "text": "Discriminator: [[glyph:discriminator]]"
+    },
+    {
+      "role": "body",
+      "text": "ISA: [[glyph:isa]]"
+    },
+    {
+      "role": "body",
+      "text": "Total ISA: [[glyph:isa_total]]"
+    },
+    {
+      "role": "body",
+      "text": "Partial ISA: [[glyph:isa_partial]]"
+    },
+    {
+      "role": "body",
+      "text": "Composite: [[glyph:composite]]"
+    },
+    {
+      "role": "body",
+      "text": "Multi-valued: [[glyph:multivalued]]"
+    },
+    {
+      "role": "body",
+      "text": "Derived: [[glyph:derived]]"
+    },
+    {
+      "role": "body",
+      "text": "Full examples use source screenshots when labels and topology matter."
+    },
+    {
+      "role": "body",
+      "text": "Keep double lines and dashed outlines distinguishable."
+    }
+  ]
+}

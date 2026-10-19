@@ -1,0 +1,1340 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<inline-notation-library xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup" xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape">
+  <glyph name="entity">
+    <w:r>
+      <w:rPr>
+        <w:noProof/>
+        <w:sz w:val="2"/>
+        <w:szCs w:val="2"/>
+      </w:rPr>
+      <w:drawing xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing">
+        <wp:inline distT="0" distB="0" distL="0" distR="0" wp14:anchorId="543EAD3B" wp14:editId="0388840F">
+          <wp:extent cx="203200" cy="66040"/>
+          <wp:effectExtent l="0" t="0" r="0" b="0"/>
+          <wp:docPr id="378787517" name="ER glyph entity" descr="Editable native Word ER notation: entity; 5.2pt high"/>
+          <wp:cNvGraphicFramePr/>
+          <a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+            <a:graphicData uri="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup">
+              <wpg:wgp>
+                <wpg:cNvGrpSpPr/>
+                <wpg:grpSpPr>
+                  <a:xfrm>
+                    <a:off x="0" y="0"/>
+                    <a:ext cx="203200" cy="66040"/>
+                    <a:chOff x="0" y="0"/>
+                    <a:chExt cx="203200" cy="66040"/>
+                  </a:xfrm>
+                </wpg:grpSpPr>
+                <wps:wsp>
+                  <wps:cNvPr id="378787518" name="ER rect"/>
+                  <wps:cNvSpPr/>
+                  <wps:spPr>
+                    <a:xfrm>
+                      <a:off x="5080" y="5080"/>
+                      <a:ext cx="193040" cy="55880"/>
+                    </a:xfrm>
+                    <a:prstGeom prst="rect">
+                      <a:avLst/>
+                    </a:prstGeom>
+                    <a:noFill/>
+                    <a:ln w="5080" cap="flat" cmpd="sng" algn="ctr">
+                      <a:solidFill>
+                        <a:srgbClr val="030E13"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:round/>
+                    </a:ln>
+                  </wps:spPr>
+                  <wps:bodyPr lIns="0" tIns="0" rIns="0" bIns="0"/>
+                </wps:wsp>
+              </wpg:wgp>
+            </a:graphicData>
+          </a:graphic>
+        </wp:inline>
+      </w:drawing>
+    </w:r>
+  </glyph>
+  <glyph name="attribute">
+    <w:r>
+      <w:rPr>
+        <w:noProof/>
+        <w:sz w:val="2"/>
+        <w:szCs w:val="2"/>
+      </w:rPr>
+      <w:drawing xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing">
+        <wp:inline distT="0" distB="0" distL="0" distR="0" wp14:anchorId="273EDBD6" wp14:editId="318476E9">
+          <wp:extent cx="304800" cy="66040"/>
+          <wp:effectExtent l="0" t="0" r="0" b="0"/>
+          <wp:docPr id="378787519" name="ER glyph attribute" descr="Editable native Word ER notation: attribute; 5.2pt high"/>
+          <wp:cNvGraphicFramePr/>
+          <a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+            <a:graphicData uri="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup">
+              <wpg:wgp>
+                <wpg:cNvGrpSpPr/>
+                <wpg:grpSpPr>
+                  <a:xfrm>
+                    <a:off x="0" y="0"/>
+                    <a:ext cx="304800" cy="66040"/>
+                    <a:chOff x="0" y="0"/>
+                    <a:chExt cx="304800" cy="66040"/>
+                  </a:xfrm>
+                </wpg:grpSpPr>
+                <wps:wsp>
+                  <wps:cNvPr id="378787520" name="ER rect"/>
+                  <wps:cNvSpPr/>
+                  <wps:spPr>
+                    <a:xfrm>
+                      <a:off x="5080" y="6350"/>
+                      <a:ext cx="86360" cy="53340"/>
+                    </a:xfrm>
+                    <a:prstGeom prst="rect">
+                      <a:avLst/>
+                    </a:prstGeom>
+                    <a:noFill/>
+                    <a:ln w="5080" cap="flat" cmpd="sng" algn="ctr">
+                      <a:solidFill>
+                        <a:srgbClr val="030E13"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:round/>
+                    </a:ln>
+                  </wps:spPr>
+                  <wps:bodyPr lIns="0" tIns="0" rIns="0" bIns="0"/>
+                </wps:wsp>
+                <wps:wsp>
+                  <wps:cNvPr id="378787521" name="ER line"/>
+                  <wps:cNvCnPr/>
+                  <wps:spPr>
+                    <a:xfrm>
+                      <a:off x="91440" y="33020"/>
+                      <a:ext cx="73660" cy="0"/>
+                    </a:xfrm>
+                    <a:prstGeom prst="line">
+                      <a:avLst/>
+                    </a:prstGeom>
+                    <a:noFill/>
+                    <a:ln w="5080" cap="flat" cmpd="sng" algn="ctr">
+                      <a:solidFill>
+                        <a:srgbClr val="030E13"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:round/>
+                    </a:ln>
+                  </wps:spPr>
+                  <wps:bodyPr/>
+                </wps:wsp>
+                <wps:wsp>
+                  <wps:cNvPr id="378787522" name="ER ellipse"/>
+                  <wps:cNvSpPr/>
+                  <wps:spPr>
+                    <a:xfrm>
+                      <a:off x="165100" y="5080"/>
+                      <a:ext cx="134620" cy="55880"/>
+                    </a:xfrm>
+                    <a:prstGeom prst="ellipse">
+                      <a:avLst/>
+                    </a:prstGeom>
+                    <a:noFill/>
+                    <a:ln w="5080" cap="flat" cmpd="sng" algn="ctr">
+                      <a:solidFill>
+                        <a:srgbClr val="030E13"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:round/>
+                    </a:ln>
+                  </wps:spPr>
+                  <wps:bodyPr lIns="0" tIns="0" rIns="0" bIns="0"/>
+                </wps:wsp>
+              </wpg:wgp>
+            </a:graphicData>
+          </a:graphic>
+        </wp:inline>
+      </w:drawing>
+    </w:r>
+  </glyph>
+  <glyph name="relationship">
+    <w:r>
+      <w:rPr>
+        <w:noProof/>
+        <w:sz w:val="2"/>
+        <w:szCs w:val="2"/>
+      </w:rPr>
+      <w:drawing xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing">
+        <wp:inline distT="0" distB="0" distL="0" distR="0" wp14:anchorId="41D29E23" wp14:editId="48098838">
+          <wp:extent cx="381000" cy="66040"/>
+          <wp:effectExtent l="0" t="0" r="0" b="0"/>
+          <wp:docPr id="378787523" name="ER glyph relationship" descr="Editable native Word ER notation: relationship; 5.2pt high"/>
+          <wp:cNvGraphicFramePr/>
+          <a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+            <a:graphicData uri="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup">
+              <wpg:wgp>
+                <wpg:cNvGrpSpPr/>
+                <wpg:grpSpPr>
+                  <a:xfrm>
+                    <a:off x="0" y="0"/>
+                    <a:ext cx="381000" cy="66040"/>
+                    <a:chOff x="0" y="0"/>
+                    <a:chExt cx="381000" cy="66040"/>
+                  </a:xfrm>
+                </wpg:grpSpPr>
+                <wps:wsp>
+                  <wps:cNvPr id="378787524" name="ER rect"/>
+                  <wps:cNvSpPr/>
+                  <wps:spPr>
+                    <a:xfrm>
+                      <a:off x="5080" y="8890"/>
+                      <a:ext cx="76200" cy="48260"/>
+                    </a:xfrm>
+                    <a:prstGeom prst="rect">
+                      <a:avLst/>
+                    </a:prstGeom>
+                    <a:noFill/>
+                    <a:ln w="5080" cap="flat" cmpd="sng" algn="ctr">
+                      <a:solidFill>
+                        <a:srgbClr val="030E13"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:round/>
+                    </a:ln>
+                  </wps:spPr>
+                  <wps:bodyPr lIns="0" tIns="0" rIns="0" bIns="0"/>
+                </wps:wsp>
+                <wps:wsp>
+                  <wps:cNvPr id="378787525" name="ER line"/>
+                  <wps:cNvCnPr/>
+                  <wps:spPr>
+                    <a:xfrm>
+                      <a:off x="81280" y="33020"/>
+                      <a:ext cx="58420" cy="0"/>
+                    </a:xfrm>
+                    <a:prstGeom prst="line">
+                      <a:avLst/>
+                    </a:prstGeom>
+                    <a:noFill/>
+                    <a:ln w="5080" cap="flat" cmpd="sng" algn="ctr">
+                      <a:solidFill>
+                        <a:srgbClr val="030E13"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:round/>
+                    </a:ln>
+                  </wps:spPr>
+                  <wps:bodyPr/>
+                </wps:wsp>
+                <wps:wsp>
+                  <wps:cNvPr id="378787526" name="ER diamond"/>
+                  <wps:cNvSpPr/>
+                  <wps:spPr>
+                    <a:xfrm>
+                      <a:off x="139700" y="5080"/>
+                      <a:ext cx="101600" cy="55880"/>
+                    </a:xfrm>
+                    <a:prstGeom prst="diamond">
+                      <a:avLst/>
+                    </a:prstGeom>
+                    <a:noFill/>
+                    <a:ln w="5080" cap="flat" cmpd="sng" algn="ctr">
+                      <a:solidFill>
+                        <a:srgbClr val="030E13"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:round/>
+                    </a:ln>
+                  </wps:spPr>
+                  <wps:bodyPr lIns="0" tIns="0" rIns="0" bIns="0"/>
+                </wps:wsp>
+                <wps:wsp>
+                  <wps:cNvPr id="378787527" name="ER line"/>
+                  <wps:cNvCnPr/>
+                  <wps:spPr>
+                    <a:xfrm>
+                      <a:off x="241300" y="33020"/>
+                      <a:ext cx="58420" cy="0"/>
+                    </a:xfrm>
+                    <a:prstGeom prst="line">
+                      <a:avLst/>
+                    </a:prstGeom>
+                    <a:noFill/>
+                    <a:ln w="5080" cap="flat" cmpd="sng" algn="ctr">
+                      <a:solidFill>
+                        <a:srgbClr val="030E13"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:round/>
+                    </a:ln>
+                  </wps:spPr>
+                  <wps:bodyPr/>
+                </wps:wsp>
+                <wps:wsp>
+                  <wps:cNvPr id="378787528" name="ER rect"/>
+                  <wps:cNvSpPr/>
+                  <wps:spPr>
+                    <a:xfrm>
+                      <a:off x="299720" y="8890"/>
+                      <a:ext cx="76200" cy="48260"/>
+                    </a:xfrm>
+                    <a:prstGeom prst="rect">
+                      <a:avLst/>
+                    </a:prstGeom>
+                    <a:noFill/>
+                    <a:ln w="5080" cap="flat" cmpd="sng" algn="ctr">
+                      <a:solidFill>
+                        <a:srgbClr val="030E13"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:round/>
+                    </a:ln>
+                  </wps:spPr>
+                  <wps:bodyPr lIns="0" tIns="0" rIns="0" bIns="0"/>
+                </wps:wsp>
+              </wpg:wgp>
+            </a:graphicData>
+          </a:graphic>
+        </wp:inline>
+      </w:drawing>
+    </w:r>
+  </glyph>
+  <glyph name="one">
+    <w:r>
+      <w:rPr>
+        <w:noProof/>
+        <w:sz w:val="2"/>
+        <w:szCs w:val="2"/>
+      </w:rPr>
+      <w:drawing xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing">
+        <wp:inline distT="0" distB="0" distL="0" distR="0" wp14:anchorId="30BBAE93" wp14:editId="2B251C43">
+          <wp:extent cx="152400" cy="66040"/>
+          <wp:effectExtent l="0" t="0" r="0" b="0"/>
+          <wp:docPr id="378787529" name="ER glyph one" descr="Editable native Word ER notation: one; 5.2pt high"/>
+          <wp:cNvGraphicFramePr/>
+          <a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+            <a:graphicData uri="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup">
+              <wpg:wgp>
+                <wpg:cNvGrpSpPr/>
+                <wpg:grpSpPr>
+                  <a:xfrm>
+                    <a:off x="0" y="0"/>
+                    <a:ext cx="152400" cy="66040"/>
+                    <a:chOff x="0" y="0"/>
+                    <a:chExt cx="152400" cy="66040"/>
+                  </a:xfrm>
+                </wpg:grpSpPr>
+                <wps:wsp>
+                  <wps:cNvPr id="378787530" name="ER line"/>
+                  <wps:cNvCnPr/>
+                  <wps:spPr>
+                    <a:xfrm>
+                      <a:off x="10160" y="33020"/>
+                      <a:ext cx="132080" cy="0"/>
+                    </a:xfrm>
+                    <a:prstGeom prst="line">
+                      <a:avLst/>
+                    </a:prstGeom>
+                    <a:noFill/>
+                    <a:ln w="5080" cap="flat" cmpd="sng" algn="ctr">
+                      <a:solidFill>
+                        <a:srgbClr val="030E13"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:round/>
+                      <a:tailEnd type="triangle" w="sm" len="sm"/>
+                    </a:ln>
+                  </wps:spPr>
+                  <wps:bodyPr/>
+                </wps:wsp>
+              </wpg:wgp>
+            </a:graphicData>
+          </a:graphic>
+        </wp:inline>
+      </w:drawing>
+    </w:r>
+  </glyph>
+  <glyph name="many">
+    <w:r>
+      <w:rPr>
+        <w:noProof/>
+        <w:sz w:val="2"/>
+        <w:szCs w:val="2"/>
+      </w:rPr>
+      <w:drawing xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing">
+        <wp:inline distT="0" distB="0" distL="0" distR="0" wp14:anchorId="49BA0E88" wp14:editId="01CC493B">
+          <wp:extent cx="152400" cy="66040"/>
+          <wp:effectExtent l="0" t="0" r="0" b="0"/>
+          <wp:docPr id="378787531" name="ER glyph many" descr="Editable native Word ER notation: many; 5.2pt high"/>
+          <wp:cNvGraphicFramePr/>
+          <a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+            <a:graphicData uri="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup">
+              <wpg:wgp>
+                <wpg:cNvGrpSpPr/>
+                <wpg:grpSpPr>
+                  <a:xfrm>
+                    <a:off x="0" y="0"/>
+                    <a:ext cx="152400" cy="66040"/>
+                    <a:chOff x="0" y="0"/>
+                    <a:chExt cx="152400" cy="66040"/>
+                  </a:xfrm>
+                </wpg:grpSpPr>
+                <wps:wsp>
+                  <wps:cNvPr id="378787532" name="ER line"/>
+                  <wps:cNvCnPr/>
+                  <wps:spPr>
+                    <a:xfrm>
+                      <a:off x="10160" y="33020"/>
+                      <a:ext cx="132080" cy="0"/>
+                    </a:xfrm>
+                    <a:prstGeom prst="line">
+                      <a:avLst/>
+                    </a:prstGeom>
+                    <a:noFill/>
+                    <a:ln w="5080" cap="flat" cmpd="sng" algn="ctr">
+                      <a:solidFill>
+                        <a:srgbClr val="030E13"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:round/>
+                    </a:ln>
+                  </wps:spPr>
+                  <wps:bodyPr/>
+                </wps:wsp>
+              </wpg:wgp>
+            </a:graphicData>
+          </a:graphic>
+        </wp:inline>
+      </w:drawing>
+    </w:r>
+  </glyph>
+  <glyph name="total">
+    <w:r>
+      <w:rPr>
+        <w:noProof/>
+        <w:sz w:val="2"/>
+        <w:szCs w:val="2"/>
+      </w:rPr>
+      <w:drawing xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing">
+        <wp:inline distT="0" distB="0" distL="0" distR="0" wp14:anchorId="15221D66" wp14:editId="58CE980A">
+          <wp:extent cx="152400" cy="66040"/>
+          <wp:effectExtent l="0" t="0" r="0" b="0"/>
+          <wp:docPr id="378787533" name="ER glyph total" descr="Editable native Word ER notation: total; 5.2pt high"/>
+          <wp:cNvGraphicFramePr/>
+          <a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+            <a:graphicData uri="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup">
+              <wpg:wgp>
+                <wpg:cNvGrpSpPr/>
+                <wpg:grpSpPr>
+                  <a:xfrm>
+                    <a:off x="0" y="0"/>
+                    <a:ext cx="152400" cy="66040"/>
+                    <a:chOff x="0" y="0"/>
+                    <a:chExt cx="152400" cy="66040"/>
+                  </a:xfrm>
+                </wpg:grpSpPr>
+                <wps:wsp>
+                  <wps:cNvPr id="378787534" name="ER line"/>
+                  <wps:cNvCnPr/>
+                  <wps:spPr>
+                    <a:xfrm>
+                      <a:off x="5080" y="24130"/>
+                      <a:ext cx="142240" cy="0"/>
+                    </a:xfrm>
+                    <a:prstGeom prst="line">
+                      <a:avLst/>
+                    </a:prstGeom>
+                    <a:noFill/>
+                    <a:ln w="5080" cap="flat" cmpd="sng" algn="ctr">
+                      <a:solidFill>
+                        <a:srgbClr val="030E13"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:round/>
+                    </a:ln>
+                  </wps:spPr>
+                  <wps:bodyPr/>
+                </wps:wsp>
+                <wps:wsp>
+                  <wps:cNvPr id="378787535" name="ER line"/>
+                  <wps:cNvCnPr/>
+                  <wps:spPr>
+                    <a:xfrm>
+                      <a:off x="5080" y="41910"/>
+                      <a:ext cx="142240" cy="0"/>
+                    </a:xfrm>
+                    <a:prstGeom prst="line">
+                      <a:avLst/>
+                    </a:prstGeom>
+                    <a:noFill/>
+                    <a:ln w="5080" cap="flat" cmpd="sng" algn="ctr">
+                      <a:solidFill>
+                        <a:srgbClr val="030E13"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:round/>
+                    </a:ln>
+                  </wps:spPr>
+                  <wps:bodyPr/>
+                </wps:wsp>
+              </wpg:wgp>
+            </a:graphicData>
+          </a:graphic>
+        </wp:inline>
+      </w:drawing>
+    </w:r>
+  </glyph>
+  <glyph name="partial">
+    <w:r>
+      <w:rPr>
+        <w:noProof/>
+        <w:sz w:val="2"/>
+        <w:szCs w:val="2"/>
+      </w:rPr>
+      <w:drawing xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing">
+        <wp:inline distT="0" distB="0" distL="0" distR="0" wp14:anchorId="08AB9B24" wp14:editId="3A6B6FF2">
+          <wp:extent cx="152400" cy="66040"/>
+          <wp:effectExtent l="0" t="0" r="0" b="0"/>
+          <wp:docPr id="378787536" name="ER glyph partial" descr="Editable native Word ER notation: partial; 5.2pt high"/>
+          <wp:cNvGraphicFramePr/>
+          <a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+            <a:graphicData uri="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup">
+              <wpg:wgp>
+                <wpg:cNvGrpSpPr/>
+                <wpg:grpSpPr>
+                  <a:xfrm>
+                    <a:off x="0" y="0"/>
+                    <a:ext cx="152400" cy="66040"/>
+                    <a:chOff x="0" y="0"/>
+                    <a:chExt cx="152400" cy="66040"/>
+                  </a:xfrm>
+                </wpg:grpSpPr>
+                <wps:wsp>
+                  <wps:cNvPr id="378787537" name="ER line"/>
+                  <wps:cNvCnPr/>
+                  <wps:spPr>
+                    <a:xfrm>
+                      <a:off x="10160" y="33020"/>
+                      <a:ext cx="132080" cy="0"/>
+                    </a:xfrm>
+                    <a:prstGeom prst="line">
+                      <a:avLst/>
+                    </a:prstGeom>
+                    <a:noFill/>
+                    <a:ln w="5080" cap="flat" cmpd="sng" algn="ctr">
+                      <a:solidFill>
+                        <a:srgbClr val="030E13"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:round/>
+                    </a:ln>
+                  </wps:spPr>
+                  <wps:bodyPr/>
+                </wps:wsp>
+              </wpg:wgp>
+            </a:graphicData>
+          </a:graphic>
+        </wp:inline>
+      </w:drawing>
+    </w:r>
+  </glyph>
+  <glyph name="key">
+    <w:r>
+      <w:rPr>
+        <w:noProof/>
+        <w:sz w:val="2"/>
+        <w:szCs w:val="2"/>
+      </w:rPr>
+      <w:drawing xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing">
+        <wp:inline distT="0" distB="0" distL="0" distR="0" wp14:anchorId="46B275C6" wp14:editId="475D051F">
+          <wp:extent cx="152400" cy="66040"/>
+          <wp:effectExtent l="0" t="0" r="0" b="0"/>
+          <wp:docPr id="378787538" name="ER glyph key" descr="Editable native Word ER notation: key; 5.2pt high"/>
+          <wp:cNvGraphicFramePr/>
+          <a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+            <a:graphicData uri="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup">
+              <wpg:wgp>
+                <wpg:cNvGrpSpPr/>
+                <wpg:grpSpPr>
+                  <a:xfrm>
+                    <a:off x="0" y="0"/>
+                    <a:ext cx="152400" cy="66040"/>
+                    <a:chOff x="0" y="0"/>
+                    <a:chExt cx="152400" cy="66040"/>
+                  </a:xfrm>
+                </wpg:grpSpPr>
+                <wps:wsp>
+                  <wps:cNvPr id="378787539" name="ER ellipse"/>
+                  <wps:cNvSpPr/>
+                  <wps:spPr>
+                    <a:xfrm>
+                      <a:off x="5080" y="5080"/>
+                      <a:ext cx="142240" cy="55880"/>
+                    </a:xfrm>
+                    <a:prstGeom prst="ellipse">
+                      <a:avLst/>
+                    </a:prstGeom>
+                    <a:noFill/>
+                    <a:ln w="5080" cap="flat" cmpd="sng" algn="ctr">
+                      <a:solidFill>
+                        <a:srgbClr val="030E13"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:round/>
+                    </a:ln>
+                  </wps:spPr>
+                  <wps:bodyPr lIns="0" tIns="0" rIns="0" bIns="0"/>
+                </wps:wsp>
+                <wps:wsp>
+                  <wps:cNvPr id="378787540" name="ER line"/>
+                  <wps:cNvCnPr/>
+                  <wps:spPr>
+                    <a:xfrm>
+                      <a:off x="50800" y="45720"/>
+                      <a:ext cx="50800" cy="0"/>
+                    </a:xfrm>
+                    <a:prstGeom prst="line">
+                      <a:avLst/>
+                    </a:prstGeom>
+                    <a:noFill/>
+                    <a:ln w="5080" cap="flat" cmpd="sng" algn="ctr">
+                      <a:solidFill>
+                        <a:srgbClr val="030E13"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:round/>
+                    </a:ln>
+                  </wps:spPr>
+                  <wps:bodyPr/>
+                </wps:wsp>
+              </wpg:wgp>
+            </a:graphicData>
+          </a:graphic>
+        </wp:inline>
+      </w:drawing>
+    </w:r>
+  </glyph>
+  <glyph name="weak">
+    <w:r>
+      <w:rPr>
+        <w:noProof/>
+        <w:sz w:val="2"/>
+        <w:szCs w:val="2"/>
+      </w:rPr>
+      <w:drawing xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing">
+        <wp:inline distT="0" distB="0" distL="0" distR="0" wp14:anchorId="569A4815" wp14:editId="77CC34F4">
+          <wp:extent cx="203200" cy="66040"/>
+          <wp:effectExtent l="0" t="0" r="0" b="0"/>
+          <wp:docPr id="378787541" name="ER glyph weak" descr="Editable native Word ER notation: weak; 5.2pt high"/>
+          <wp:cNvGraphicFramePr/>
+          <a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+            <a:graphicData uri="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup">
+              <wpg:wgp>
+                <wpg:cNvGrpSpPr/>
+                <wpg:grpSpPr>
+                  <a:xfrm>
+                    <a:off x="0" y="0"/>
+                    <a:ext cx="203200" cy="66040"/>
+                    <a:chOff x="0" y="0"/>
+                    <a:chExt cx="203200" cy="66040"/>
+                  </a:xfrm>
+                </wpg:grpSpPr>
+                <wps:wsp>
+                  <wps:cNvPr id="378787542" name="ER rect"/>
+                  <wps:cNvSpPr/>
+                  <wps:spPr>
+                    <a:xfrm>
+                      <a:off x="5080" y="5080"/>
+                      <a:ext cx="193040" cy="55880"/>
+                    </a:xfrm>
+                    <a:prstGeom prst="rect">
+                      <a:avLst/>
+                    </a:prstGeom>
+                    <a:noFill/>
+                    <a:ln w="5080" cap="flat" cmpd="sng" algn="ctr">
+                      <a:solidFill>
+                        <a:srgbClr val="030E13"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:round/>
+                    </a:ln>
+                  </wps:spPr>
+                  <wps:bodyPr lIns="0" tIns="0" rIns="0" bIns="0"/>
+                </wps:wsp>
+                <wps:wsp>
+                  <wps:cNvPr id="378787543" name="ER rect"/>
+                  <wps:cNvSpPr/>
+                  <wps:spPr>
+                    <a:xfrm>
+                      <a:off x="13335" y="13335"/>
+                      <a:ext cx="176530" cy="39370"/>
+                    </a:xfrm>
+                    <a:prstGeom prst="rect">
+                      <a:avLst/>
+                    </a:prstGeom>
+                    <a:noFill/>
+                    <a:ln w="5080" cap="flat" cmpd="sng" algn="ctr">
+                      <a:solidFill>
+                        <a:srgbClr val="030E13"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:round/>
+                    </a:ln>
+                  </wps:spPr>
+                  <wps:bodyPr lIns="0" tIns="0" rIns="0" bIns="0"/>
+                </wps:wsp>
+              </wpg:wgp>
+            </a:graphicData>
+          </a:graphic>
+        </wp:inline>
+      </w:drawing>
+    </w:r>
+  </glyph>
+  <glyph name="identifying">
+    <w:r>
+      <w:rPr>
+        <w:noProof/>
+        <w:sz w:val="2"/>
+        <w:szCs w:val="2"/>
+      </w:rPr>
+      <w:drawing xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing">
+        <wp:inline distT="0" distB="0" distL="0" distR="0" wp14:anchorId="701860FC" wp14:editId="724D9669">
+          <wp:extent cx="127000" cy="66040"/>
+          <wp:effectExtent l="0" t="0" r="0" b="0"/>
+          <wp:docPr id="378787544" name="ER glyph identifying" descr="Editable native Word ER notation: identifying; 5.2pt high"/>
+          <wp:cNvGraphicFramePr/>
+          <a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+            <a:graphicData uri="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup">
+              <wpg:wgp>
+                <wpg:cNvGrpSpPr/>
+                <wpg:grpSpPr>
+                  <a:xfrm>
+                    <a:off x="0" y="0"/>
+                    <a:ext cx="127000" cy="66040"/>
+                    <a:chOff x="0" y="0"/>
+                    <a:chExt cx="127000" cy="66040"/>
+                  </a:xfrm>
+                </wpg:grpSpPr>
+                <wps:wsp>
+                  <wps:cNvPr id="378787545" name="ER diamond"/>
+                  <wps:cNvSpPr/>
+                  <wps:spPr>
+                    <a:xfrm>
+                      <a:off x="5080" y="5080"/>
+                      <a:ext cx="116840" cy="55880"/>
+                    </a:xfrm>
+                    <a:prstGeom prst="diamond">
+                      <a:avLst/>
+                    </a:prstGeom>
+                    <a:noFill/>
+                    <a:ln w="5080" cap="flat" cmpd="sng" algn="ctr">
+                      <a:solidFill>
+                        <a:srgbClr val="030E13"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:round/>
+                    </a:ln>
+                  </wps:spPr>
+                  <wps:bodyPr lIns="0" tIns="0" rIns="0" bIns="0"/>
+                </wps:wsp>
+                <wps:wsp>
+                  <wps:cNvPr id="378787546" name="ER diamond"/>
+                  <wps:cNvSpPr/>
+                  <wps:spPr>
+                    <a:xfrm>
+                      <a:off x="13335" y="13335"/>
+                      <a:ext cx="100330" cy="39370"/>
+                    </a:xfrm>
+                    <a:prstGeom prst="diamond">
+                      <a:avLst/>
+                    </a:prstGeom>
+                    <a:noFill/>
+                    <a:ln w="5080" cap="flat" cmpd="sng" algn="ctr">
+                      <a:solidFill>
+                        <a:srgbClr val="030E13"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:round/>
+                    </a:ln>
+                  </wps:spPr>
+                  <wps:bodyPr lIns="0" tIns="0" rIns="0" bIns="0"/>
+                </wps:wsp>
+              </wpg:wgp>
+            </a:graphicData>
+          </a:graphic>
+        </wp:inline>
+      </w:drawing>
+    </w:r>
+  </glyph>
+  <glyph name="discriminator">
+    <w:r>
+      <w:rPr>
+        <w:noProof/>
+        <w:sz w:val="2"/>
+        <w:szCs w:val="2"/>
+      </w:rPr>
+      <w:drawing xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing">
+        <wp:inline distT="0" distB="0" distL="0" distR="0" wp14:anchorId="25902585" wp14:editId="25FC1E09">
+          <wp:extent cx="152400" cy="66040"/>
+          <wp:effectExtent l="0" t="0" r="0" b="0"/>
+          <wp:docPr id="378787547" name="ER glyph discriminator" descr="Editable native Word ER notation: discriminator; 5.2pt high"/>
+          <wp:cNvGraphicFramePr/>
+          <a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+            <a:graphicData uri="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup">
+              <wpg:wgp>
+                <wpg:cNvGrpSpPr/>
+                <wpg:grpSpPr>
+                  <a:xfrm>
+                    <a:off x="0" y="0"/>
+                    <a:ext cx="152400" cy="66040"/>
+                    <a:chOff x="0" y="0"/>
+                    <a:chExt cx="152400" cy="66040"/>
+                  </a:xfrm>
+                </wpg:grpSpPr>
+                <wps:wsp>
+                  <wps:cNvPr id="378787548" name="ER line"/>
+                  <wps:cNvCnPr/>
+                  <wps:spPr>
+                    <a:xfrm>
+                      <a:off x="10160" y="52070"/>
+                      <a:ext cx="132080" cy="0"/>
+                    </a:xfrm>
+                    <a:prstGeom prst="line">
+                      <a:avLst/>
+                    </a:prstGeom>
+                    <a:noFill/>
+                    <a:ln w="5080" cap="flat" cmpd="sng" algn="ctr">
+                      <a:solidFill>
+                        <a:srgbClr val="030E13"/>
+                      </a:solidFill>
+                      <a:prstDash val="dash"/>
+                      <a:round/>
+                    </a:ln>
+                  </wps:spPr>
+                  <wps:bodyPr/>
+                </wps:wsp>
+              </wpg:wgp>
+            </a:graphicData>
+          </a:graphic>
+        </wp:inline>
+      </w:drawing>
+    </w:r>
+  </glyph>
+  <glyph name="isa">
+    <w:r>
+      <w:rPr>
+        <w:noProof/>
+        <w:sz w:val="2"/>
+        <w:szCs w:val="2"/>
+      </w:rPr>
+      <w:drawing xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing">
+        <wp:inline distT="0" distB="0" distL="0" distR="0" wp14:anchorId="72D02FFA" wp14:editId="37CD84C7">
+          <wp:extent cx="101600" cy="66040"/>
+          <wp:effectExtent l="0" t="0" r="0" b="0"/>
+          <wp:docPr id="378787558" name="ER glyph isa" descr="Editable native Word ER notation: isa; 5.2pt high"/>
+          <wp:cNvGraphicFramePr/>
+          <a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+            <a:graphicData uri="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup">
+              <wpg:wgp>
+                <wpg:cNvGrpSpPr/>
+                <wpg:grpSpPr>
+                  <a:xfrm>
+                    <a:off x="0" y="0"/>
+                    <a:ext cx="101600" cy="66040"/>
+                    <a:chOff x="0" y="0"/>
+                    <a:chExt cx="101600" cy="66040"/>
+                  </a:xfrm>
+                </wpg:grpSpPr>
+                <wps:wsp>
+                  <wps:cNvPr id="378787559" name="ER triangle"/>
+                  <wps:cNvSpPr/>
+                  <wps:spPr>
+                    <a:xfrm flipV="1">
+                      <a:off x="12700" y="5080"/>
+                      <a:ext cx="76200" cy="55880"/>
+                    </a:xfrm>
+                    <a:prstGeom prst="triangle">
+                      <a:avLst/>
+                    </a:prstGeom>
+                    <a:noFill/>
+                    <a:ln w="5080" cap="flat" cmpd="sng" algn="ctr">
+                      <a:solidFill>
+                        <a:srgbClr val="030E13"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:round/>
+                    </a:ln>
+                  </wps:spPr>
+                  <wps:bodyPr lIns="0" tIns="0" rIns="0" bIns="0"/>
+                </wps:wsp>
+              </wpg:wgp>
+            </a:graphicData>
+          </a:graphic>
+        </wp:inline>
+      </w:drawing>
+    </w:r>
+  </glyph>
+  <glyph name="isa_total">
+    <w:r>
+      <w:rPr>
+        <w:noProof/>
+        <w:sz w:val="2"/>
+        <w:szCs w:val="2"/>
+      </w:rPr>
+      <w:drawing xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing">
+        <wp:inline distT="0" distB="0" distL="0" distR="0" wp14:anchorId="626BA2FA" wp14:editId="5658451C">
+          <wp:extent cx="114300" cy="66040"/>
+          <wp:effectExtent l="0" t="0" r="0" b="0"/>
+          <wp:docPr id="378787560" name="ER glyph isa_total" descr="Editable native Word ER notation: isa_total; 5.2pt high"/>
+          <wp:cNvGraphicFramePr/>
+          <a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+            <a:graphicData uri="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup">
+              <wpg:wgp>
+                <wpg:cNvGrpSpPr/>
+                <wpg:grpSpPr>
+                  <a:xfrm>
+                    <a:off x="0" y="0"/>
+                    <a:ext cx="114300" cy="66040"/>
+                    <a:chOff x="0" y="0"/>
+                    <a:chExt cx="114300" cy="66040"/>
+                  </a:xfrm>
+                </wpg:grpSpPr>
+                <wps:wsp>
+                  <wps:cNvPr id="378787561" name="ER triangle"/>
+                  <wps:cNvSpPr/>
+                  <wps:spPr>
+                    <a:xfrm flipV="1">
+                      <a:off x="12700" y="20320"/>
+                      <a:ext cx="88900" cy="39370"/>
+                    </a:xfrm>
+                    <a:prstGeom prst="triangle">
+                      <a:avLst/>
+                    </a:prstGeom>
+                    <a:noFill/>
+                    <a:ln w="5080" cap="flat" cmpd="sng" algn="ctr">
+                      <a:solidFill>
+                        <a:srgbClr val="030E13"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:round/>
+                    </a:ln>
+                  </wps:spPr>
+                  <wps:bodyPr lIns="0" tIns="0" rIns="0" bIns="0"/>
+                </wps:wsp>
+                <wps:wsp>
+                  <wps:cNvPr id="378787562" name="ER line"/>
+                  <wps:cNvCnPr/>
+                  <wps:spPr>
+                    <a:xfrm>
+                      <a:off x="57150" y="4445"/>
+                      <a:ext cx="0" cy="15875"/>
+                    </a:xfrm>
+                    <a:prstGeom prst="line">
+                      <a:avLst/>
+                    </a:prstGeom>
+                    <a:noFill/>
+                    <a:ln w="5080" cap="flat" cmpd="sng" algn="ctr">
+                      <a:solidFill>
+                        <a:srgbClr val="030E13"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:round/>
+                    </a:ln>
+                  </wps:spPr>
+                  <wps:bodyPr/>
+                </wps:wsp>
+                <wps:wsp>
+                  <wps:cNvPr id="378787563" name="ER line"/>
+                  <wps:cNvCnPr/>
+                  <wps:spPr>
+                    <a:xfrm>
+                      <a:off x="66040" y="4445"/>
+                      <a:ext cx="0" cy="15875"/>
+                    </a:xfrm>
+                    <a:prstGeom prst="line">
+                      <a:avLst/>
+                    </a:prstGeom>
+                    <a:noFill/>
+                    <a:ln w="5080" cap="flat" cmpd="sng" algn="ctr">
+                      <a:solidFill>
+                        <a:srgbClr val="030E13"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:round/>
+                    </a:ln>
+                  </wps:spPr>
+                  <wps:bodyPr/>
+                </wps:wsp>
+              </wpg:wgp>
+            </a:graphicData>
+          </a:graphic>
+        </wp:inline>
+      </w:drawing>
+    </w:r>
+  </glyph>
+  <glyph name="isa_partial">
+    <w:r>
+      <w:rPr>
+        <w:noProof/>
+        <w:sz w:val="2"/>
+        <w:szCs w:val="2"/>
+      </w:rPr>
+      <w:drawing xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing">
+        <wp:inline distT="0" distB="0" distL="0" distR="0" wp14:anchorId="1360196B" wp14:editId="68BBD3F8">
+          <wp:extent cx="114300" cy="66040"/>
+          <wp:effectExtent l="0" t="0" r="0" b="0"/>
+          <wp:docPr id="378787564" name="ER glyph isa_partial" descr="Editable native Word ER notation: isa_partial; 5.2pt high"/>
+          <wp:cNvGraphicFramePr/>
+          <a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+            <a:graphicData uri="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup">
+              <wpg:wgp>
+                <wpg:cNvGrpSpPr/>
+                <wpg:grpSpPr>
+                  <a:xfrm>
+                    <a:off x="0" y="0"/>
+                    <a:ext cx="114300" cy="66040"/>
+                    <a:chOff x="0" y="0"/>
+                    <a:chExt cx="114300" cy="66040"/>
+                  </a:xfrm>
+                </wpg:grpSpPr>
+                <wps:wsp>
+                  <wps:cNvPr id="378787565" name="ER triangle"/>
+                  <wps:cNvSpPr/>
+                  <wps:spPr>
+                    <a:xfrm flipV="1">
+                      <a:off x="12700" y="20320"/>
+                      <a:ext cx="88900" cy="39370"/>
+                    </a:xfrm>
+                    <a:prstGeom prst="triangle">
+                      <a:avLst/>
+                    </a:prstGeom>
+                    <a:noFill/>
+                    <a:ln w="5080" cap="flat" cmpd="sng" algn="ctr">
+                      <a:solidFill>
+                        <a:srgbClr val="030E13"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:round/>
+                    </a:ln>
+                  </wps:spPr>
+                  <wps:bodyPr lIns="0" tIns="0" rIns="0" bIns="0"/>
+                </wps:wsp>
+                <wps:wsp>
+                  <wps:cNvPr id="378787566" name="ER line"/>
+                  <wps:cNvCnPr/>
+                  <wps:spPr>
+                    <a:xfrm>
+                      <a:off x="57150" y="4445"/>
+                      <a:ext cx="0" cy="15875"/>
+                    </a:xfrm>
+                    <a:prstGeom prst="line">
+                      <a:avLst/>
+                    </a:prstGeom>
+                    <a:noFill/>
+                    <a:ln w="5080" cap="flat" cmpd="sng" algn="ctr">
+                      <a:solidFill>
+                        <a:srgbClr val="030E13"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:round/>
+                    </a:ln>
+                  </wps:spPr>
+                  <wps:bodyPr/>
+                </wps:wsp>
+              </wpg:wgp>
+            </a:graphicData>
+          </a:graphic>
+        </wp:inline>
+      </w:drawing>
+    </w:r>
+  </glyph>
+  <glyph name="composite">
+    <w:r>
+      <w:rPr>
+        <w:noProof/>
+        <w:sz w:val="2"/>
+        <w:szCs w:val="2"/>
+      </w:rPr>
+      <w:drawing xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing">
+        <wp:inline distT="0" distB="0" distL="0" distR="0" wp14:anchorId="0A734621" wp14:editId="03560F59">
+          <wp:extent cx="266700" cy="66040"/>
+          <wp:effectExtent l="0" t="0" r="0" b="0"/>
+          <wp:docPr id="378787571" name="ER glyph composite" descr="Editable native Word ER notation: composite; 5.2pt high"/>
+          <wp:cNvGraphicFramePr/>
+          <a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+            <a:graphicData uri="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup">
+              <wpg:wgp>
+                <wpg:cNvGrpSpPr/>
+                <wpg:grpSpPr>
+                  <a:xfrm>
+                    <a:off x="0" y="0"/>
+                    <a:ext cx="266700" cy="66040"/>
+                    <a:chOff x="0" y="0"/>
+                    <a:chExt cx="266700" cy="66040"/>
+                  </a:xfrm>
+                </wpg:grpSpPr>
+                <wps:wsp>
+                  <wps:cNvPr id="378787572" name="ER ellipse"/>
+                  <wps:cNvSpPr/>
+                  <wps:spPr>
+                    <a:xfrm>
+                      <a:off x="5080" y="13970"/>
+                      <a:ext cx="88900" cy="38100"/>
+                    </a:xfrm>
+                    <a:prstGeom prst="ellipse">
+                      <a:avLst/>
+                    </a:prstGeom>
+                    <a:noFill/>
+                    <a:ln w="5080" cap="flat" cmpd="sng" algn="ctr">
+                      <a:solidFill>
+                        <a:srgbClr val="030E13"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:round/>
+                    </a:ln>
+                  </wps:spPr>
+                  <wps:bodyPr lIns="0" tIns="0" rIns="0" bIns="0"/>
+                </wps:wsp>
+                <wps:wsp>
+                  <wps:cNvPr id="378787573" name="ER ellipse"/>
+                  <wps:cNvSpPr/>
+                  <wps:spPr>
+                    <a:xfrm>
+                      <a:off x="177800" y="3810"/>
+                      <a:ext cx="83820" cy="22860"/>
+                    </a:xfrm>
+                    <a:prstGeom prst="ellipse">
+                      <a:avLst/>
+                    </a:prstGeom>
+                    <a:noFill/>
+                    <a:ln w="5080" cap="flat" cmpd="sng" algn="ctr">
+                      <a:solidFill>
+                        <a:srgbClr val="030E13"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:round/>
+                    </a:ln>
+                  </wps:spPr>
+                  <wps:bodyPr lIns="0" tIns="0" rIns="0" bIns="0"/>
+                </wps:wsp>
+                <wps:wsp>
+                  <wps:cNvPr id="378787574" name="ER ellipse"/>
+                  <wps:cNvSpPr/>
+                  <wps:spPr>
+                    <a:xfrm>
+                      <a:off x="177800" y="39370"/>
+                      <a:ext cx="83820" cy="22860"/>
+                    </a:xfrm>
+                    <a:prstGeom prst="ellipse">
+                      <a:avLst/>
+                    </a:prstGeom>
+                    <a:noFill/>
+                    <a:ln w="5080" cap="flat" cmpd="sng" algn="ctr">
+                      <a:solidFill>
+                        <a:srgbClr val="030E13"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:round/>
+                    </a:ln>
+                  </wps:spPr>
+                  <wps:bodyPr lIns="0" tIns="0" rIns="0" bIns="0"/>
+                </wps:wsp>
+                <wps:wsp>
+                  <wps:cNvPr id="378787575" name="ER line"/>
+                  <wps:cNvCnPr/>
+                  <wps:spPr>
+                    <a:xfrm>
+                      <a:off x="93980" y="33020"/>
+                      <a:ext cx="39370" cy="0"/>
+                    </a:xfrm>
+                    <a:prstGeom prst="line">
+                      <a:avLst/>
+                    </a:prstGeom>
+                    <a:noFill/>
+                    <a:ln w="5080" cap="flat" cmpd="sng" algn="ctr">
+                      <a:solidFill>
+                        <a:srgbClr val="030E13"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:round/>
+                    </a:ln>
+                  </wps:spPr>
+                  <wps:bodyPr/>
+                </wps:wsp>
+                <wps:wsp>
+                  <wps:cNvPr id="378787576" name="ER line"/>
+                  <wps:cNvCnPr/>
+                  <wps:spPr>
+                    <a:xfrm flipV="1">
+                      <a:off x="133350" y="15240"/>
+                      <a:ext cx="44450" cy="17780"/>
+                    </a:xfrm>
+                    <a:prstGeom prst="line">
+                      <a:avLst/>
+                    </a:prstGeom>
+                    <a:noFill/>
+                    <a:ln w="5080" cap="flat" cmpd="sng" algn="ctr">
+                      <a:solidFill>
+                        <a:srgbClr val="030E13"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:round/>
+                    </a:ln>
+                  </wps:spPr>
+                  <wps:bodyPr/>
+                </wps:wsp>
+                <wps:wsp>
+                  <wps:cNvPr id="378787577" name="ER line"/>
+                  <wps:cNvCnPr/>
+                  <wps:spPr>
+                    <a:xfrm>
+                      <a:off x="133350" y="33020"/>
+                      <a:ext cx="44450" cy="17780"/>
+                    </a:xfrm>
+                    <a:prstGeom prst="line">
+                      <a:avLst/>
+                    </a:prstGeom>
+                    <a:noFill/>
+                    <a:ln w="5080" cap="flat" cmpd="sng" algn="ctr">
+                      <a:solidFill>
+                        <a:srgbClr val="030E13"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:round/>
+                    </a:ln>
+                  </wps:spPr>
+                  <wps:bodyPr/>
+                </wps:wsp>
+              </wpg:wgp>
+            </a:graphicData>
+          </a:graphic>
+        </wp:inline>
+      </w:drawing>
+    </w:r>
+  </glyph>
+  <glyph name="multivalued">
+    <w:r>
+      <w:rPr>
+        <w:noProof/>
+        <w:sz w:val="2"/>
+        <w:szCs w:val="2"/>
+      </w:rPr>
+      <w:drawing xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing">
+        <wp:inline distT="0" distB="0" distL="0" distR="0" wp14:anchorId="17977505" wp14:editId="2870F053">
+          <wp:extent cx="152400" cy="66040"/>
+          <wp:effectExtent l="0" t="0" r="0" b="0"/>
+          <wp:docPr id="378787578" name="ER glyph multivalued" descr="Editable native Word ER notation: multivalued; 5.2pt high"/>
+          <wp:cNvGraphicFramePr/>
+          <a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+            <a:graphicData uri="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup">
+              <wpg:wgp>
+                <wpg:cNvGrpSpPr/>
+                <wpg:grpSpPr>
+                  <a:xfrm>
+                    <a:off x="0" y="0"/>
+                    <a:ext cx="152400" cy="66040"/>
+                    <a:chOff x="0" y="0"/>
+                    <a:chExt cx="152400" cy="66040"/>
+                  </a:xfrm>
+                </wpg:grpSpPr>
+                <wps:wsp>
+                  <wps:cNvPr id="378787579" name="ER ellipse"/>
+                  <wps:cNvSpPr/>
+                  <wps:spPr>
+                    <a:xfrm>
+                      <a:off x="5080" y="5080"/>
+                      <a:ext cx="142240" cy="55880"/>
+                    </a:xfrm>
+                    <a:prstGeom prst="ellipse">
+                      <a:avLst/>
+                    </a:prstGeom>
+                    <a:noFill/>
+                    <a:ln w="5080" cap="flat" cmpd="sng" algn="ctr">
+                      <a:solidFill>
+                        <a:srgbClr val="030E13"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:round/>
+                    </a:ln>
+                  </wps:spPr>
+                  <wps:bodyPr lIns="0" tIns="0" rIns="0" bIns="0"/>
+                </wps:wsp>
+                <wps:wsp>
+                  <wps:cNvPr id="378787580" name="ER ellipse"/>
+                  <wps:cNvSpPr/>
+                  <wps:spPr>
+                    <a:xfrm>
+                      <a:off x="13335" y="13335"/>
+                      <a:ext cx="125730" cy="39370"/>
+                    </a:xfrm>
+                    <a:prstGeom prst="ellipse">
+                      <a:avLst/>
+                    </a:prstGeom>
+                    <a:noFill/>
+                    <a:ln w="5080" cap="flat" cmpd="sng" algn="ctr">
+                      <a:solidFill>
+                        <a:srgbClr val="030E13"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:round/>
+                    </a:ln>
+                  </wps:spPr>
+                  <wps:bodyPr lIns="0" tIns="0" rIns="0" bIns="0"/>
+                </wps:wsp>
+              </wpg:wgp>
+            </a:graphicData>
+          </a:graphic>
+        </wp:inline>
+      </w:drawing>
+    </w:r>
+  </glyph>
+  <glyph name="derived">
+    <w:r>
+      <w:rPr>
+        <w:noProof/>
+        <w:sz w:val="2"/>
+        <w:szCs w:val="2"/>
+      </w:rPr>
+      <w:drawing xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing">
+        <wp:inline distT="0" distB="0" distL="0" distR="0" wp14:anchorId="0FC059C7" wp14:editId="6140CE8E">
+          <wp:extent cx="152400" cy="66040"/>
+          <wp:effectExtent l="0" t="0" r="0" b="0"/>
+          <wp:docPr id="378787581" name="ER glyph derived" descr="Editable native Word ER notation: derived; 5.2pt high"/>
+          <wp:cNvGraphicFramePr/>
+          <a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+            <a:graphicData uri="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup">
+              <wpg:wgp>
+                <wpg:cNvGrpSpPr/>
+                <wpg:grpSpPr>
+                  <a:xfrm>
+                    <a:off x="0" y="0"/>
+                    <a:ext cx="152400" cy="66040"/>
+                    <a:chOff x="0" y="0"/>
+                    <a:chExt cx="152400" cy="66040"/>
+                  </a:xfrm>
+                </wpg:grpSpPr>
+                <wps:wsp>
+                  <wps:cNvPr id="378787582" name="ER ellipse"/>
+                  <wps:cNvSpPr/>
+                  <wps:spPr>
+                    <a:xfrm>
+                      <a:off x="5080" y="5080"/>
+                      <a:ext cx="142240" cy="55880"/>
+                    </a:xfrm>
+                    <a:prstGeom prst="ellipse">
+                      <a:avLst/>
+                    </a:prstGeom>
+                    <a:noFill/>
+                    <a:ln w="5080" cap="flat" cmpd="sng" algn="ctr">
+                      <a:solidFill>
+                        <a:srgbClr val="030E13"/>
+                      </a:solidFill>
+                      <a:prstDash val="dash"/>
+                      <a:round/>
+                    </a:ln>
+                  </wps:spPr>
+                  <wps:bodyPr lIns="0" tIns="0" rIns="0" bIns="0"/>
+                </wps:wsp>
+              </wpg:wgp>
+            </a:graphicData>
+          </a:graphic>
+        </wp:inline>
+      </w:drawing>
+    </w:r>
+  </glyph>
+</inline-notation-library>
